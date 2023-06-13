@@ -33,18 +33,6 @@ subprojects {
   group = "io.armory.plugin.stage.wait.random"
   version = rootProject.version
 
-  if (name != "random-wait-deck") {
-    apply plugin: "com.diffplug.spotless"
-    spotless {
-      kotlin {
-        ktlint().userData([
-          disabled_rules          : "no-wildcard-imports",
-          indent_size             : "2",
-          continuation_indent_size: "2",
-        ])
-      }
-    }
-  }
 }
 dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
