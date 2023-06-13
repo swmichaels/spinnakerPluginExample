@@ -1,0 +1,17 @@
+[
+  {
+    "id": "Armory.RandomWaitPlugin",
+    "description": "An example of a PF4J-based plugin that provides a custom pipeline stage.",
+    "provider": "https://github.com/spinnaker-plugin-examples",
+    "releases": [
+      {
+        "version": "unspecified",
+        "date": "2023-06-13T03:48:45.232319Z",
+        "requires": "echo>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+        "sha512sum": "13198c50f381f24c9c77a8814e91efead348f113b184c0ec760f9b188bde3dbf89aba868f675da0c674497d2ac3b7400293e72977ef2f2007d873d23c91c5b81",
+        "preferred": false,
+        "compatibility": []
+      }
+    ]
+  }
+]
